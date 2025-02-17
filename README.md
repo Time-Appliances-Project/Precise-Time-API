@@ -10,4 +10,4 @@ Today, time management technologies [4][5] not only expose the time as an offset
 # Problem Statement
 Precise time is represented as an offset from an epoch and is accompanied by an upper bound of accumulated error. Unfortunately, many time APIs ignore the error, making it difficult to confidently order events based on their timestamps.
 To make effective use of precise time in applications and services, we need a better API that exposes the clock time, the uncertainty window, and data from the synchronization process to the application. This information is critical for accurately ordering events and improving the reliability of time-sensitive systems.
-![image](https://github.com/user-attachments/assets/9a855e81-90d4-4bbd-b49d-2e35b09443e9)
+
